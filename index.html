@@ -25,10 +25,9 @@
                 <li><a href="#capturas">Capturas</a></li>
                 <li><a href="#contacto">Contacto</a></li>
                 <li><a href="#descarga">Descargar</a></li>
-                <li><a href="#github">GitHub</a></li>
-
             </ul>
-            <a href="#descarga" class="nav-cta">DESCARGAR</a>        
+            <a href="#descarga" class="nav-cta">DESCARGAR</a>      
+          
 
         </div>
 
@@ -173,41 +172,59 @@
         </svg>
     </div>
 
-    <!-- CREDENCIALES DE PRUEBA -->
-    <section class="credenciales">
-        <p class="section-label">Para el jurado</p>
-        <h2 class="section-title">Credenciales de prueba</h2>
-        <p class="credenciales-intro">Por seguridad, las credenciales de coordinador y administrador se entregan en el documento del TFG.</p>
+    
+<!-- CREDENCIALES DE PRUEBA -->
+<section class="credenciales">
+    <p class="section-label">Para el jurado</p>
+    <h2 class="section-title">Credenciales de prueba</h2>
 
-        <div class="credenciales-grid">
-                    <div class="credencial-card">
-                     <div class="credencial-icon">👁️</div>
-                      <h3>Visitante</h3>
-                 <p>Cualquier persona que abre la app sin registrarse, ve la bienvenida y puede acceder al registro o login.</p>
+    <p class="credenciales-intro">
+        El sistema dispone de tres roles de usuario: Usuario, Coordinador y Administrador. 
+        Además, se contempla el estado de visitante para usuarios no autenticados.
+        Por motivos de seguridad, las credenciales reales de acceso de los roles administrativos no se muestran públicamente.
+    </p>
+
+    <div class="credenciales-grid">
+
+        <div class="credencial-card">
+            <div class="credencial-icon">👁️</div>
+            <h3>Visitante</h3>
+            <p>
+                Usuario no autenticado que puede acceder a la pantalla de bienvenida
+                y navegar hacia el registro o inicio de sesión.
+
                 </div>
-            <div class="credencial-card">
-                <div class="credencial-icon">👤</div>
-                <h3>Usuario</h3>
-                <p>Puedes registrarte libremente desde la app o probar con una cuenta existente.</p>
-                <p class="credencial-email">demo.usuario@therapets.com</p>
-                <p class="credencial-pass">DemoUser2026!</p>
-            </div>
 
-
-            <div class="credencial-card">
-                <div class="credencial-icon">👩‍⚕️</div>
-                <h3>Coordinador</h3>
-                <p>Gestiona centros, animales y horarios.</p>
-                <p class="credencial-locked">🔒 Credenciales en el documento de la memoria</p>
-            </div>
-            <div class="credencial-card">
-                <div class="credencial-icon">👑</div>
-                <h3>Administrador</h3>
-                <p>Acceso completo al sistema y gestión de usuarios.</p>
-                <p class="credencial-locked">🔒 Credenciales en el documento de la memoria</p>
-            </div>
+        <div class="credencial-card">
+            <div class="credencial-icon">👤</div>
+            <h3>Usuario</h3>
+            <p>
+                Puede registrarse libremente desde la aplicación.
+            </p>
+            <p class="credencial-pass">Acceso mediante registro</p>
+            </p>
         </div>
-    </section>
+
+        <div class="credencial-card">
+            <div class="credencial-icon">👩‍⚕️</div>
+            <h3>Coordinador</h3>
+            <p>
+                Gestiona centros, animales, horarios y citas asociadas al centro.
+            </p>
+            <p class="credencial-locked">🔒 Acceso restringido por seguridad</p>
+        </div>
+
+        <div class="credencial-card">
+            <div class="credencial-icon">👑</div>
+            <h3>Administrador</h3>
+            <p>
+                Acceso completo al sistema y gestión global de usuarios y centros.
+            </p>
+            <p class="credencial-locked">🔒 Acceso restringido por seguridad</p>
+        </div>
+
+    </div>
+</section>
 
     <!-- Divisor: blanco → verde pastel -->
     <div class="divider divider-down" style="background: var(--blanco);">
